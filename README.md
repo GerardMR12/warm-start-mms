@@ -10,6 +10,8 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
+If `python -m venv .venv` fails, try `python3 -m venv .venv`.
+
 Install the dependencies in an existing environment:
 ```bash
 pip install -r requirements.txt
